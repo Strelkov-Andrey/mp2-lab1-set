@@ -39,5 +39,9 @@ public:
 
   friend istream &operator>>(istream &istr, TSet &bf);
   friend ostream &operator<<(ostream &ostr, const TSet &bf);
+
+  TSet create_fib(int mp);
+  void ReadFile(TSet& bf);
+  void WriteFile(TSet& bf);
 };
 #endif
